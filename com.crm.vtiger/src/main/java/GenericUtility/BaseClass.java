@@ -32,7 +32,7 @@ public class BaseClass {
 	@BeforeClass(groups= {"smoke","Regression"})
 	public void bc_config(/*String Browser*/) throws Throwable {
 		//String Browser = putil.getPropertyFileData("Browser");
-		String Browser = System.getProperty("Browser");
+		String Browser=System.getProperty("Browser");
 		String URL = putil.getPropertyFileData("URL");
 		//String URL = System.getProperty("URL");
 		
