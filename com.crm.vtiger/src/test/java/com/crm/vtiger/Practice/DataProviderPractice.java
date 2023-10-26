@@ -8,6 +8,7 @@ public class DataProviderPractice {
 
 	@DataProvider
 	public Object[][]data() {
+		System.out.println("pass");
 		Object data[][]=new Object[2][2];
 		data[0][0]="samsung";
 		data[0][1]=15000;
